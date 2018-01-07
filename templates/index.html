@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+{% include "head.html" %}
+  <body>
+    <div class="bg"></div>
+    <div class="footer">
+      <div class="keywords">
+        {%- for keyword in keywords %}
+          <a href="https://news.google.com/news/search/section/q/{{ keyword }}">{{ keyword }}</a>
+        {%- endfor %}
+      </div>
+      <div class="more">
+        <a href="https://twitter.com/hmmworldview">{% include "svg/twitter.svg" %}</a>
+        <a href="https://github.com/jbutewicz/hmmworldview">{% include "svg/github.svg" %}</a>
+        <a href="http://jbutewicz.com/hmmworldview">{% include "svg/wordpress.svg" %}</a>
+      </div>
+    </div>
+  </body>
+</html>

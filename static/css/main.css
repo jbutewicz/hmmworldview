@@ -1,0 +1,59 @@
+body, html {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
+.bg {
+  /* The image used */
+  background-image: url('/static/img/stack.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+  color: #ffffff;
+  padding: 6px 0px 2px 0px;
+  font-family: monospace;
+}
+.keywords, .more, .explanation {
+  padding: 2px 6px 2px 6px;
+}
+.keywords a:link, .keywords a:visited {
+  color: #ffffff;
+  text-decoration: none;
+  -webkit-transition: color 0.4s ease-out;
+  -moz-transition: color 0.4s ease-out;
+  -o-transition: color 0.4s ease-out;
+  transition: color 0.4s ease-out;
+}
+.keywords a:hover, .keywords a:active {
+  color: #ccff33;
+  text-decoration: none;
+}
+.more svg {
+  height: 22px;
+  width: 22px;
+  fill: #ffffff;
+  padding: 4px 6px 4px 6px;
+  -webkit-transition: fill 0.4s ease-out;
+  -moz-transition: fill 0.4s ease-out;
+  -o-transition: fill 0.4s ease-out;
+  transition: fill 0.4s ease-out;
+}
+.more svg:active, .more svg:focus, .more svg:hover {
+  fill: #ccff33;
+}
