@@ -20,3 +20,7 @@ Feel free to use this in any way. This project is licensed under the MIT License
 
 * Inspired by watching a talk about photography at a forum at the MOMA.
 * Thanks(I think?) to ABC News, BBC News, CBS News, CNN, Daily Mail, Fox News, Huffington Post, Los Angeles Times, MSN, New York Daily News, New York Post, Reuters, The New Yorker, The New York Times, The Wall Street Journal, Time, USA Today, Washington Post, Yahoo News.
+
+### Check it out live
+[hmmworldview Homepage](http://www.hmmworldview.com/ "hmmworldview Homepage")
+[hmmworldview Twitter](https://twitter.com/hmmworldview "hmmworldview Twitter")
