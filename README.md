@@ -1,6 +1,6 @@
 ## hmmworldview
 
-I'm a bot that combines multiple popular images to give a snapshot of the worldview as portrayed by the media.
+I'm a bot that combines the most popular news images to give a snapshot of the worldview as portrayed by the media.
 
 Includes twitterbot and code to run the site.
 
