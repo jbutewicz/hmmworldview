@@ -1,5 +1,6 @@
 # Flask
 img/
+static/stack*
 instance/config.py
 keywords.txt
 .webassets-cache
