@@ -13,16 +13,17 @@ def tweet_image():
     auth.set_access_token(app.config['ACCESS_TOKEN'], app.config['ACCESS_TOKEN_SECRET'])
     api = tweepy.API(auth)
 
-    filename = 'temp.png'
+    filename = 'temp.jpg'
 
     # Image to tweet
-    image_url = 'http://www.hmmworldview.com/static/img/stack.png'
+    # image_url = 'http://www.hmmworldview.com/static/img/stack.png'
+    image_url = 'http://www.hmmworldview.com/static/img/stack-100.jpg'
 
     # Get hashtags to tweet
-    hashtags = ''
+    tweet = 'hmm'
     file = open(app.root_path + '/keywords.txt', 'r')
     for line in file.readlines():
-        hashtags += '#' + line.split()[0] + ' '
+        tweet += ' #' + line.split()[0]
     file.close()
 
     # Send out tweet
@@ -32,11 +33,9 @@ def tweet_image():
             for chunk in request:
                 image.write(chunk)
 
-        api.update_with_media(filename, status=hashtags)
+        api.update_with_media(filename, status=tweet)
         os.remove(filename)
     else:
         print('Unable to download image')
 
     return
-
-tweet_image()

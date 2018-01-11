@@ -19,9 +19,11 @@ def resize_images():
         img = img.resize((basewidth, hsize), Image.ANTIALIAS)
         img = resizeimage.resize('cover', img, [IMAGE_WIDTH, IMAGE_HEIGHT])
         try:
+            os.makedirs(os.path.dirname(app.root_path + '/img/' + file), exist_ok=True)
             img.save(app.root_path + '/img/' + file, img.format)
         except:
             print('Could not save file')
+
         img.close()
 
     return

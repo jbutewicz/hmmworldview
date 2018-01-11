@@ -16,7 +16,7 @@ def index():
 
     file.close()
 
-    return render_template('index.html', title='Home', keywords=keywords)
+    return render_template('index.html', title='hmmworldview', canonical_url=request.url_root, keywords=keywords)
 
 if __name__ == "__main__":
     app.run()

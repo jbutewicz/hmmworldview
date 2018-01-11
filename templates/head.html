@@ -2,11 +2,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <title>{{ title }}</title>
-    <meta name="description" content="I'm a bot that combines multiple popular images to give a snapshot of the worldview as portrayed by the media.">
+    <meta name="description" content="I'm a bot that combines popular images to give a snapshot of the worldview as portrayed by the media.">
+    <link rel="canonical" href="{{ canonical_url }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
     <link rel="apple-touch-icon" sizes="180x180" href="static/img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="static/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="static/img/favicon-16x16.png">
     <link rel="manifest" href="static/img/manifest.json">
     <meta name="theme-color" content="#ffffff">
+    {% include "js/analytics.js" %}
   </head>

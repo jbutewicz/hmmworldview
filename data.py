@@ -23,6 +23,7 @@ rss_feeds = {
 
 # Number of articles to grab per each RSS feed
 POSTS_FROM_EACH_FEED = 1
+POSTS_FROM_EACH_FEED_KEYWORDS = 1
 
 # Minimum image size kb allowed (used to control image quality and remove small images like logos)
 MIN_IMAGE_SIZE = 30

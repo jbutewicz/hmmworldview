@@ -7,3 +7,6 @@ CONSUMER_KEY = 'your_key'
 CONSUMER_SECRET = 'your_secret'
 ACCESS_TOKEN = 'your_token'
 ACCESS_TOKEN_SECRET = 'your_token_secret'
+
+# Google analytics id
+GA_ID = 'your_ga_id'
